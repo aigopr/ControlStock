@@ -1,0 +1,125 @@
+{
+   "productos":[
+      {
+         "id":"0001",
+         "producto":"Producto 1",
+         "categoria":"Informática",
+         "precio":30,
+         "stock":14,
+         "modelos":[
+            {
+               "id":"1-0001",
+               "modelo":"Modelo 1",
+               "color":"Negro",
+               "capacidad":"3TB",
+               "precio":30,
+               "stock":7
+            },
+            {
+               "id":"1-0002",
+               "modelo":"Modelo 2",
+               "color":"Negro",
+               "capacidad":"3TB",
+               "precio":30,
+               "stock":7
+            }
+         ]
+      },
+      {
+         "id":"0002",
+         "producto":"Producto 2",
+         "categoria":"Videojuegos",
+         "precio":30,
+         "stock":14,
+         "modelos":[
+            {
+               "id":"2-0001",
+               "modelo":"Modelo 1",
+               "color":"Negro",
+               "capacidad":"3TB",
+               "precio":30,
+               "stock":7
+            },
+            {
+               "id":"2-0002",
+               "modelo":"Modelo 2",
+               "color":"Negro",
+               "capacidad":"3TB",
+               "precio":30,
+               "stock":7
+            }
+         ]
+      },
+      {
+         "id":"0003",
+         "producto":"Producto 3",
+         "categoria":"Música",
+         "precio":30,
+         "stock":14,
+         "modelos":[
+            {
+               "id":"3-0001",
+               "modelo":"Modelo 1",
+               "color":"Negro",
+               "capacidad":"3TB",
+               "precio":30,
+               "stock":7
+            },
+            {
+               "id":"3-0002",
+               "modelo":"Modelo 2",
+               "color":"Negro",
+               "capacidad":"3TB",
+               "precio":30,
+               "stock":7
+            }
+         ]
+      }
+   ],
+   "pedidos":[
+      {
+         "id":"0001",
+         "cliente":"Cliente 1",
+         "categoria":"Informática",
+         "total":80,
+         "fecha":"26/11/2020"
+      },
+      {
+         "id":"0002",
+         "cliente":"Cliente 2",
+         "categoria":"Videojuegos",
+         "total":578,
+         "fecha":"15/11/2020"
+      },
+      {
+         "id":"0003",
+         "cliente":"Cliente 3",
+         "categoria":"Música",
+         "total":75,
+         "fecha":"31/07/2020"
+      }
+   ],
+   "clientes":[
+      {
+         "id":"0001",
+         "empresa":"Empresa 1",
+         "ciudad":"Barcelona",
+         "contacto":"Carlos Fernando Anariba",
+         "telefono":"987654321"
+      },
+      {
+         "id":"0002",
+         "empresa":"Empresa 2",
+         "ciudad":"Madrid",
+         "contacto":"Marc Mourin",
+         "telefono":"987654321"
+      },
+      {
+         "id":"0003",
+         "empresa":"Empresa 3",
+         "ciudad":"Zaragoza",
+         "contacto":"Carlos Quilez",
+         "telefono":"987654321"
+      }
+   ]
+}
