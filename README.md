@@ -9,13 +9,12 @@ productos, pedidos y clientes.
  LIBRERÍAS 
 ------------------------------------------------------------------------
 
-Librerías utilizadas:
- QtCore: Contiene las clases principales que no son del GUI.
- QtGui: Contiene la mayoría de las clases del GUI. Clases de tablas y
- listas basadas enel patrón de diseño modelo-vista-controlador.
- QtWidgets: Contiene los elementos principales para crear interficies.
- json: Herramientas para lectura y manipulación de ficheros json.
- logging: Permite crear un registro de eventos.
+QtCore: Contiene las clases principales que no son del GUI.
+QtGui: Contiene la mayoría de las clases del GUI. Clases de tablas y
+listas basadas enel patrón de diseño modelo-vista-controlador.
+QtWidgets: Contiene los elementos principales para crear interficies.
+json: Herramientas para lectura y manipulación de ficheros json.
+logging: Permite crear un registro de eventos.
 
 ------------------------------------------------------------------------
  INSTALACIÓN 
